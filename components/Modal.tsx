@@ -51,7 +51,7 @@ const Modal = ({ productId }:Props) => {
 						</Transition.Child>
 						<span className='inline-block h-screen align-middle' />
 						<Transition.Child
-							as='Fragment'
+							as={Fragment}
 							enter='ease-out duration-300'
 							enterFrom='opacity-0 scale-95'
 							enterTo='opacity-100 scale-100'
