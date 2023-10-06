@@ -1,5 +1,4 @@
 import { PriceHistoryItem, Product } from '@/types';
-
 const Notification = {
 	WELCOME: 'WELCOME',
 	CHANGE_OF_STOCK: 'CHANGE_OF_STOCK',
@@ -7,7 +6,7 @@ const Notification = {
 	THRESHOLD_MET: 'THRESHOLD_MET',
 };
 
-const THRESHOLD_PERCENTAGE = 40;
+const THRESHOLD_PERCENTAGE = 10;
 
 // Extracts and returns the price from a list of possible elements.
 export function extractPrice(...elements: any) {
